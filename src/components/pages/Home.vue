@@ -4,13 +4,13 @@
 
 <script>
 export default {
-  name: "Home",
-  data() {
+  name: 'Home',
+  data () {
     return {
-      msg: "Under Maintenance"
-    };
+      msg: 'Under Maintenance'
+    }
   }
-};
+}
 </script>
 
 <style scoped>
