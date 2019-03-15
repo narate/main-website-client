@@ -1,16 +1,20 @@
 <template>
   <div>
+    <Header />
     <router-view/>
+    <Footer />
   </div>
 </template>
 
 <script>
 import '@/assets/styles/main.css'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: { Header, Footer },
 }
 </script>
 
-<style scoped>
-</style>
+<style></style>
