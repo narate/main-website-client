@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import '@/assets/styles/main.css'
+import '@/assets/styles/tailwind.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
