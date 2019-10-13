@@ -19,4 +19,10 @@ $ yarn start
 $ yarn generate
 ```
 
+## Docker for Dev
+
+```
+docker-compose up --build
+```
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
